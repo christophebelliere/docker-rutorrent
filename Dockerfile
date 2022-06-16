@@ -134,7 +134,7 @@ RUN if [ "${FILEBOT}" = true ]; then \
       && rm -rf /filebot/lib/FreeBSD-amd64 /filebot/lib/Linux-armv7l /filebot/lib/Linux-x86_64 /filebot/lib/Linux-i686;; \
     "linux/arm/v7") \
       ln -sf /lib/libz.so /filebot/lib/Linux-armv7l/libz.so \
-      && ln -sf /usr/lib/libzen.so /filebot/Linux-armv7l/libzen.so \
+      && ln -sf /usr/lib/libzen.so /filebot/lib/Linux-armv7l/libzen.so \
       && ln -sf /usr/lib/libmediainfo.so /filebot/lib/Linux-armv7l/libmediainfo.so \
       && rm -rf /filebot/lib/FreeBSD-amd64 /filebot/lib/Linux-aarch64 /filebot/lib/Linux-x86_64 /filebot/lib/Linux-i686;; \
 esac; \
