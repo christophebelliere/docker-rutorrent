@@ -111,8 +111,8 @@ RUN apk add --no-progress --no-cache \
 RUN if [ "${FILEBOT}" = true ]; then \
   apk add --no-progress --no-cache \
     chromaprint \
-    openjdk11 \
-    openjdk11-jre \
+    openjdk8 \
+    openjdk8-jre \
     zlib-dev \
   # Install filebot
   && mkdir /filebot \
