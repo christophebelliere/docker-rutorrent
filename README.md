@@ -29,7 +29,7 @@
 | Argument | Description | Type | Default value |
 | -------- | ----------- | ---- | ------------- |
 | **FILEBOT** | Build with filebot | *optional* | false
-| **FILEBOT_VER** | Filebot version | *optional* | 4.9.4
+| **FILEBOT_VER** | Filebot version | *optional* | 4.9.6
 
 ### build
 
