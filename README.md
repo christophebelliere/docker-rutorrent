@@ -49,8 +49,8 @@ docker build --tag mondedie/rutorrent:filebot --build-arg FILEBOT=true https://g
 
 | Variable | Description | Type | Default value |
 | -------- | ----------- | ---- | ------------- |
-| **UID** | Choose uid for launch rtorrent | *optional* | 991
-| **GID** | Choose gid for launch rtorrent | *optional* | 991
+| **UID** | Choose uid for launch rtorrent | *optional* | 1000
+| **GID** | Choose gid for launch rtorrent | *optional* | 1000
 | **PORT_RTORRENT** | Port of rtorrent | *optional* | 45000
 | **DHT_RTORRENT** | DHT option in rtorrent.rc file | *optional* | off
 | **CHECK_PERM_DATA** | Check permission data in downloads directory | *optional* | true
